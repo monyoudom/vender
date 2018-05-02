@@ -89,10 +89,6 @@ class ComposerStaticInit1629bd2130b637db041347512fa9ae27
             'Doctrine\\Common\\Inflector\\' => 26,
             'DeepCopy\\' => 9,
         ),
-        'C' => 
-        array (
-            'Carbon\\' => 7,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -107,8 +103,8 @@ class ComposerStaticInit1629bd2130b637db041347512fa9ae27
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'app\\' => 
         array (
@@ -250,10 +246,10 @@ class ComposerStaticInit1629bd2130b637db041347512fa9ae27
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
-        'Carbon\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
-        ),
+    );
+
+    public static $fallbackDirsPsr4 = array (
+        0 => __DIR__ . '/..' . '/nesbot/carbon/src',
     );
 
     public static $prefixesPsr0 = array (
@@ -9545,6 +9541,7 @@ class ComposerStaticInit1629bd2130b637db041347512fa9ae27
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit1629bd2130b637db041347512fa9ae27::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit1629bd2130b637db041347512fa9ae27::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit1629bd2130b637db041347512fa9ae27::$fallbackDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit1629bd2130b637db041347512fa9ae27::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit1629bd2130b637db041347512fa9ae27::$classMap;
 
