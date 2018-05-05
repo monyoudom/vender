@@ -7,8 +7,12 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'utilities\\' => array($baseDir . '/project/utilities'),
+    'redis\\' => array($baseDir . '/project/infrastructures/redis'),
     'project\\' => array($baseDir . '/project'),
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
+    'infrastructures\\' => array($baseDir . '/project/infrastructures'),
+    'cli\\' => array($baseDir . '/project/app/cli'),
+    'bin\\' => array($baseDir . '/project/app/cli/bin'),
     'app\\' => array($baseDir . '/project/app'),
     'api\\' => array($baseDir . '/project/app/api'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),

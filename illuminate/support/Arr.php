@@ -290,7 +290,7 @@ class Arr
         }
 
         if (strpos($key, '.') === false) {
-            return $array[$key];
+            return $array[$key] ?? value($default);
         }
 
         foreach (explode('.', $key) as $segment) {

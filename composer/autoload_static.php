@@ -22,10 +22,26 @@ class ComposerStaticInit1629bd2130b637db041347512fa9ae27
         array (
             'utilities\\' => 10,
         ),
+        'r' => 
+        array (
+            'redis\\' => 6,
+        ),
         'p' => 
         array (
             'project\\' => 8,
             'phpDocumentor\\Reflection\\' => 25,
+        ),
+        'i' => 
+        array (
+            'infrastructures\\' => 16,
+        ),
+        'c' => 
+        array (
+            'cli\\' => 4,
+        ),
+        'b' => 
+        array (
+            'bin\\' => 4,
         ),
         'a' => 
         array (
@@ -96,6 +112,10 @@ class ComposerStaticInit1629bd2130b637db041347512fa9ae27
         array (
             0 => __DIR__ . '/../..' . '/project/utilities',
         ),
+        'redis\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/project/infrastructures/redis',
+        ),
         'project\\' => 
         array (
             0 => __DIR__ . '/../..' . '/project',
@@ -105,6 +125,18 @@ class ComposerStaticInit1629bd2130b637db041347512fa9ae27
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'infrastructures\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/project/infrastructures',
+        ),
+        'cli\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/project/app/cli',
+        ),
+        'bin\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/project/app/cli/bin',
         ),
         'app\\' => 
         array (
